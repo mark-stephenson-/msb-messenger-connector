@@ -1,24 +1,17 @@
 {
-  "name": "node-wit",
-  "version": "3.3.2",
-  "description": "Wit.ai Node.js SDK",
-  "keywords": [
-    "wit",
-    "wit.ai",
-    "bot",
-    "botengine",
-    "bots",
-    "nlp",
-    "automation"
-  ],
+  "name": "msb-chat-connector",
+  "version": "0.0.1",
+  "description": "Connector that sits between Messenger and Wit",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": "https://github.com/wit-ai/node-wit",
-  "author": "Julien Odent <julien@wit.ai>",
+  "author": "Mark Stephesnon <mark@m12n.co.uk>",
   "dependencies": {
-    "node-fetch": "^1.5.1",
-    "node-uuid": "^1.4.7"
+    "node-fetch"  : "^1.5.1",
+    "node-uuid"   : "^1.4.7",
+    "body-parser" : "^1.15.1",
+    "express"     : "^4.13.4",
+    "request"     : "^2.72.0"
   }
 }
