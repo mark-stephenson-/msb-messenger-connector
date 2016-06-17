@@ -19,11 +19,11 @@
 const bodyParser      = require('body-parser');
 const express         = require('express');
 const request         = require('request');
-const config          = require('config');
+const config          = require('./config');
 
 // When not cloning the `node-wit` repo, replace the `require` like so:
 // const Wit = require('node-wit').Wit;
-const Wit             = require('../').Wit;
+const Wit             = require('./lib/wit').Wit;
 
 // Wit.ai parameters
 const WIT_TOKEN       = config.WIT_TOKEN;

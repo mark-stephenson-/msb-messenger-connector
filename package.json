@@ -4,7 +4,8 @@
   "description": "Connector that sits between Messenger and Wit",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "author": "Mark Stephesnon <mark@m12n.co.uk>",
   "dependencies": {
