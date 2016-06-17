@@ -1,5 +1,6 @@
 /** Config */
-var env = require('node-env-file');
+var dotenv = require("dotenv");
+dotenv.load();
 
 module.exports = {
     FB_PAGE_TOKEN:    process.env.FB_PAGE_TOKEN,

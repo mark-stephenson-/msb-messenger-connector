@@ -10,8 +10,8 @@
   "author": "Mark Stephesnon <mark@m12n.co.uk>",
   "dependencies": {
     "body-parser": "^1.15.1",
+    "dotenv": "^2.0.0",
     "express": "^4.13.4",
-    "node-env-file": "^0.1.8",
     "node-fetch": "^1.5.1",
     "node-uuid": "^1.4.7",
     "request": "^2.72.0"
